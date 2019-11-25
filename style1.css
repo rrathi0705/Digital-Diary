@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body{
+    background-image: url(bg.jpg);
+}
+.fieldsetalign{
+    border-radius: 25px; 
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3.5px solid #4CAF50;
+}
+legend{
+    font-size: 35px;
+    color:#fff;
+    padding: 5px;
+}
+.tableset{
+    width: 90%;
+}
+
+label{
+    font-size: 20px;
+    color: #fff;
+}
+.required{
+    color: red;
+    font-size: 15px;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+    padding:5px;
+    margin-bottom:7px;
+    margin-top:7px;
+    margin-left: 15px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+}
+input[type="text"]:hover,input[type="password"]:hover,input[type="email"]:hover{
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    background-color: lightgray;
+    
+}
+.center-button{
+    margin-left: 70px;
+}
+button{
+    padding: 5px;
+    border: 3px solid blue;
+    border-radius: 4px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}

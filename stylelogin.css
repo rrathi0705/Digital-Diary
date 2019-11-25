@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+}
+.logo{
+    height: 100px;
+    width: 100%;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+
+a {
+	text-decoration: none;
+	color: #189;
+    text-decoration: underline;
+}
+
+a:hover {
+	color: #1a8cff;
+}
+
+p.small {
+	font-size:15px;
+	margin-top: 20px;
+}
+.bgimg{
+    background-image: url(bg.jpg);
+    background-size: 100% ;
+}
+
+/* Layout */
+.login-box {
+	background-color: white;
+	padding-bottom: 30px;
+	border-radius: 7px;
+	text-align: center;
+    float: right;
+    width: 30%;
+    margin-top: 10%;
+    margin-right: 25%;
+    margin-bottom: 25%;
+    margin-left: 25%;
+}
+
+.pencil img{
+    height: 300px;
+    width: 280px;
+    float: left;
+}
+.login-box .box-header {
+	background-color: #0073e6;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.login-box label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #004d99;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	line-height: 2em;
+    width: auto;
+}
+
+.login-box input {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #b3d9ff;
+	border-radius: 4px;
+	font-size: 1em;
+	color: #3399ff;
+    width: auto;
+}
+
+.login-box input:focus {
+	outline: none;
+	border-color: #665851;
+	transition: 0.5s;
+	color: #665851;
+}
+
+.login-box button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 3px;
+	color: #fff;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #0073e6;
+	cursor: pointer;
+	outline: none;
+}
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
