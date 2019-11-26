@@ -47,6 +47,7 @@ border-radius: 5px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: black;
 }
 
 .active {
@@ -96,7 +97,7 @@ li{
         <ul>
             <li><a href="home.php" class="active a">Home</a></li>
             <li><a href="mydiary.php" class="a">Diary</a></li>
-            <li><a href="todo.php" class="a">To Do List</a></li>
+            <li><a href="todo.php" class="a">To-Do List</a></li>
             <li><a href="myimages.php" class="a">My Image</a></li>
             
             <li><a href="feedback.php" class="a">Feedback</a></li>
