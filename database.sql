@@ -1,7 +1,7 @@
 Create database diary;
 
 Create table users(
-	user_id int(100) primary key,
+	user_id int(100) auto_increment primary key,
 	user_first varchar(255),
 	user_last varchar(255),
 	user_uid varchar(255),
@@ -10,7 +10,7 @@ Create table users(
 );
 
 Create table diary(
-	diary_id int(100) primary key,
+	diary_id int(100) auto_increment primary key,
 	user_uid varchar(255),
 	diary_title varchar(255),
 	diary_date varchar(255),
@@ -19,14 +19,14 @@ Create table diary(
 );
 
 Create table feedback(
-	feedback_id int(100) primary key,
+	feedback_id int(100) auto_increment primary key,
 	user_uid varchar(255),
 	experience varchar(255),
 	comments varchar(1000)
 );
 
 Create table images(
-	image_id int(100) primary key,
+	image_id int(100) auto_increment primary key,
 	user_uid varchar(255),
 	image varchar(255),
 	name varchar(255)

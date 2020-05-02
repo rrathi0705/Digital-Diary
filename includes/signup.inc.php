@@ -4,7 +4,7 @@
     if(isset($_POST['submit'])){    
         include_once 'dbh.inc.php';
         $fname=mysqli_real_escape_string($conn,$_POST['fname']);
-        \$lname=mysqli_real_escape_string($conn,$_POST['lname']);
+        $lname=mysqli_real_escape_string($conn,$_POST['lname']);
         $uid=mysqli_real_escape_string($conn,$_POST['uid']);
         $email=mysqli_real_escape_string($conn,$_POST['email']);
         $pwd=mysqli_real_escape_string($conn,$_POST['pwd']);
