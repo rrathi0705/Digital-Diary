@@ -171,7 +171,7 @@ $_SESSION["answer"]=$realanswer;
                             </tr>
                             <tr>
                                 <td><button type="submit" name="submit" style="width:100px;">Submit</button></td>
-                                <td><button type="submit" name="submit" style="width:100px;"><a href="loginpage.php" style="color: #fff; text-decoration: none;">Login</a></button></td>
+                                <td><button type="submit" name="submit0" style="width:100px;"><a href="loginpage.php" style="color: #fff; text-decoration: none;">Login</a></button></td>
                             </tr>
                         </tbody>
                     </table>

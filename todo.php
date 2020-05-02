@@ -170,9 +170,9 @@ th,td{
   <div class="navbar">
       <ul>
         <li><a href="home.php" class="a">Home</a></li>
-        <li><a href="mydiary.php" class=" a">Diary</a></li>
+        <li><a href="mydiary.php" class="a">Diary</a></li>
         <li><a href="todo.php" class="active a">To-Do List</a></li>
-        <li><a href="myimages.php" class="a">My Image</a></li>
+        <li><a href="myimages.php" class="a">My Image </a></li>
         
         <li><a href="feedback.php" class="a">Feedback</a></li>
         <li style="float: right;"><a href="includes/logout.inc.php" class="a">Logout</a></li>
@@ -186,19 +186,19 @@ th,td{
             <button class="addBtn" name="submit">Add</button>
         </form>
     </div>
-    <table>
+    <table style="width:500px">
         <thead>
             <tr>
-            <th>Task</th>
-            <th>Action</th>
+            <th width="80%">Task</th>
+            <th width="20%">Action</th>
             </tr>
         </thead>
         <tbody>
             <?php
             while($record = mysqli_fetch_array($results)){?>
             <tr>
-                <td class="task"><?php echo $record['task']; ?></td>
-                <td class="delete"><a href="todo.php?del_task=<?php echo $record['task'];?>">x</a></td>
+                <td class="task" width="80%"><?php echo $record['task']; ?></td>
+                <td class="delete" width="20%"><a href="todo.php?del_task=<?php echo $record['task'];?>">x</a></td>
             </tr>
             <?php } ?>
         </tbody> 

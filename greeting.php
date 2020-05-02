@@ -101,7 +101,7 @@ li{
             <li><a href="myimages.php" class="a">My Image</a></li>
             
             <li><a href="feedback.php" class="a">Feedback</a></li>
-            <li><a href="includes/logout.inc.php" class="a" style="margin-left: 855px;">Logout</a></li>
+            <li style="float:right;"><a href="includes/logout.inc.php" class="a">Logout</a></li>
         </ul>
     </div>
     <div class="greeting">
