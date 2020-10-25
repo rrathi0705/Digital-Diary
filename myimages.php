@@ -151,7 +151,7 @@ li{
             $file = $_FILES['image']['tmp_name']; 
         $sourceProperties = getimagesize($file);
         $fileNewName = time();
-        $folderPath = "upload/";
+        $folderPath = "upload";
         $ext = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
         $imageType = $sourceProperties[2];
 
